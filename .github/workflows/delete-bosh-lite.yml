@@ -11,6 +11,9 @@ on:
       env-name:
         required: true
         type: string
+  push:
+    branches:
+      - testpush
 
 env:
   BBL_IAAS: gcp
